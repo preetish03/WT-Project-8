@@ -1,0 +1,154 @@
+.fadetext
+{
+
+    text-align: center;
+    animation:fadein 5s;
+    font-size: xx-large;
+    font-weight: bold;
+    color: red;
+}
+@keyframes fadein
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.bg
+{
+    background-image:url('https://www.newsexperts.in/wp-content/uploads/2021/10/RV-University-Bengaluru-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.blank
+{
+    width:50px;
+}
+.radial
+{
+    background-image: radial-gradient( white,rgb(186, 186, 46));
+}
+
+table
+{
+    width: 100%;
+}
+/* .course
+{
+
+    background-color: goldenrod;
+    width:200px;
+    height: 200px;
+}
+.center
+{
+    text-align: center;
+} */
+#table
+{
+    width:100%;
+    display: table;
+    
+}
+
+#tablecaption{
+    display: table-caption;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#tableheader
+{
+    display: table-header-group;
+    /* background-color: gray; */
+    font-weight: bold;
+    font-size: 25px;
+}
+.table-header-cell
+{
+    display: table-cell;
+    padding: 10px;
+    text-align:center;
+    border-style:double;
+    /* text-decoration:underline; */
+    
+    background-color: rgb(230, 201, 129);
+    font-weight: bold;
+}
+.table-header-cell-2
+{
+    display: table-cell;
+    padding: 10px;
+    text-align:center;
+    color:aliceblue;
+    font-size: 40px;
+    text-decoration:underline;
+    background-color:rgb(253, 210, 101);
+    font-family:'Times New Roman', Times, serif;
+    /* text-shadow: 1px 1px black; */
+    animation-name: colorchange;
+    /* background-image:url('./assets/img/rvu\ course.png'); */
+    /* height:50px;
+    width: 50px; */
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange
+{
+    0%{background-color:rgb(253, 210, 101) ;}
+    100%{background-color:#03045e ;}
+    /* 100%{background-color:rgb(114, 201, 238) ;} */
+}
+.underline
+{
+    text-decoration:underline;
+}
+ /* .table-body-cell:hover
+{
+color:black;
+     background-image:url('./assets/img/rvu\ course.png'); 
+} */
+
+.rvu
+{
+    animation: animate 25s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translate3d(0,0,0);
+    }
+    100%
+    {
+        transform: translate3d(+30px,-10px,+10px);
+    }
+}
+
+.href:hover
+{
+    color:red;
+    font-size:150%;
+}
+.socialmedia
+{
+    height: 150px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;
+    background-color: rgb(144, 234, 249);
+    border-style:double;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.logo
+{
+    height:5px;
+    display: table-cell;
+}
+.courses
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
